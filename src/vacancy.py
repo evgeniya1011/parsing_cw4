@@ -1,8 +1,9 @@
-from src.api import ApiHH, ApiSuperJob
+
 class Vacancy:
     """
     Класс для работы с вакансиями
     """
+
     def __init__(self, title, url, salary, requirements):
         self.title = title
         self.url = url
