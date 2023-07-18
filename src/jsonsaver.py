@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
 import json
+
+
 class JSONAbc(ABC):
 
     @abstractmethod
